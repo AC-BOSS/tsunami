@@ -1,0 +1,155 @@
+.content{
+    height: 300px;
+    width: 70%;
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+.text{
+    height: 70%;
+    background-color: skyblue;
+}
+.sea-cont{
+    position: relative;
+    height: 30%;
+}
+.sea{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: aqua;
+}
+
+.sea1
+{
+    position: absolute;
+    left: 5%;
+}
+.sea2
+{
+    position: absolute;
+    left: 10%;
+}
+.sea3
+{
+    position: absolute;
+    left: 15%;
+}
+.sea4{
+    position: absolute;
+    left: 20%;
+}
+.sea5{
+    position: absolute;
+    left: 25%;
+}
+.sea6{
+    position: absolute;
+    left: 30%;
+}
+.sea7{
+    position: absolute;
+    left: 35%;
+}
+.sea8{
+    position: absolute;
+    left: 40%;
+}
+.sea9{
+    position: absolute;
+    left: 45%;
+}
+.land-cont{
+    position: relative;
+    height: 30%;
+    bottom: 30%;
+}
+.land{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: sandybrown;
+}
+.land0{
+    position: absolute;
+    left: 50%;
+}
+.land1{
+    position: absolute;
+    left: 55%;
+}
+.land2{
+    position: absolute;
+    left: 60%;
+}
+.land3{
+    position: absolute;
+    left: 65%;
+}
+.land4{
+    position: absolute;
+    left: 70%;
+}
+.land5{
+    position: absolute;
+    left: 75%;
+}
+.land6{
+    position: absolute;
+    left: 80%;
+}
+.land7{
+    position: absolute;
+    left: 85%;
+}
+.land8{
+    position: absolute;
+    left: 90%;
+}
+.land9{
+    position: absolute;
+    left: 95%;
+}
+#sun{
+    position: absolute;
+    left: 75%;
+    top: 30%;
+}
+.fa-tree{
+    position: absolute;
+    top: 57.7%;
+    left: 75%;
+    color: green;
+}
+.wave{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: #036ffc;
+}
+.content:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 5;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+a{
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    
+}
