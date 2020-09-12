@@ -157,7 +157,8 @@ wave = () => {
     setTimeout(()=>{
         l5.classList.remove("land");
         l5.classList.add("wave");
-        tree.classList.remove("fa", "fa-tree");
+        tree.style.transformOrigin = 'bottom';
+        tree.style.transform = 'rotate(90deg)';
         console.log("started");
     }, 2600/3+2500);
     setTimeout(()=>{
@@ -179,10 +180,24 @@ wave = () => {
         l9.classList.remove("land");
         l9.classList.add("wave");
         console.log("started");
-        link.textContent = "Read More";
+        fadeIn();
     }, 3000/3+2500);
 }
 
+let interval;
+fadeIn = () =>{
+    interval = setInterval(show, 200);
+}
+show = () => {
+    let opacity = Number(window.getComputedStyle(link).getPropertyValue("opacity")); 
+    if (opacity < 1) { 
+        opacity = opacity + 0.1; 
+        link.style.opacity = opacity 
+    } 
+    else { 
+        clearInterval(interval); 
+    } 
+}
 tsunami = () =>{
     recede();
     wave();    
